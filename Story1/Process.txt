@@ -1,0 +1,16 @@
+Back End Processor
+
+- Takes the csv file, validate records and adds them to a Database.
+- Validation includes:
+File name exist.
+Column names are correct.
+Column contents are correct (type: int, string or currency)
+
+1) Add Sqlite & EFTools to Project
+2) Define Database to Store CSV Data.
+3) Add Migrations and create Initial database. Update-database to create the database and  apply migration.
+4) Create BEProcessor Class to read CSV using CSVHelper
+5) Read CSV File.
+6) Parse CSV File Contents into a List.
+7) If all records pass then insert CSV Data in Database.
+6) Report Success records added to the Database or an error for inalid file.

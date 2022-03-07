@@ -1,0 +1,8 @@
+<div class="file-uploader">
+  <form>
+    <input type="file" class="file-upload" (change)="onSelectFile($event)">
+    <button class="submit-btn" type="submit" [disabled]="!selectedFile" (click)="onSubmit()">Process File</button>
+  </form>
+</div>
+<div *ngIf="result" [ngClass]="'success'"> {{result}} </div>
+<div *ngIf="errorMessage" [ngClass]="'error'"> {{errorMessage}} </div>

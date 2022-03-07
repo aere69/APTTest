@@ -1,0 +1,16 @@
+STORY 3 - Validation
+
+Add validation to Back End Processor in Endpoint
+
+Validations for File:
+1) File is given (Not null or empty/blank name)
+2) File is not empty
+3) File extension is csv
+4) File is not bigger than 50MB
+
+Validatons CSV values:
+1) Sort Code : not null, number;
+2) Account Number : not null, number
+3) Name : Not null, Not Empty, String
+4) Amount : Not null, number between 1.00 and 20,000,000.00
+

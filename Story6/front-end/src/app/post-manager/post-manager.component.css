@@ -1,0 +1,16 @@
+.success{
+  color: green;
+  font-size: 20px;
+}
+.error{
+  color: red;
+  font-size: 20px;
+}
+.download{
+  display: block;
+  clear: both;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top-style: solid;
+  border-top-color: blue;
+}

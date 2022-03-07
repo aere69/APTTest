@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Endpoint</name>
+    </assembly>
+    <members>
+        <member name="M:Endpoint.PostsController.GetPosts">
+            <summary>
+            Return a List or Posts
+            </summary>
+            <returns></returns>
+            <remarks>
+            Returns a list of all the posts (postId,fielName,totalAmount).
+            </remarks>
+        </member>
+        <member name="M:Endpoint.PostsController.Get(System.Int32)">
+            <summary>
+            Creates csv file from database for a given postId
+            </summary>
+            <param name="id">postId</param>
+            <returns>path to csv file</returns>
+        </member>
+        <member name="M:Endpoint.Controllers.SubmissionController.Post(Microsoft.AspNetCore.Http.IFormFile)">
+             <summary>
+             Process and Validate the file to be saved
+             </summary>
+             <param name="file">File to process</param>
+             <returns></returns>
+             <remarks>
+             File must be csv.
+             
+             Headers: Sort Code,Account Number,Name,Reference,Amount
+             
+             Body : Sort Code = number
+                    Account Number = number
+                    Name = string
+                    Reference = string
+                    Amount = number
+            
+             </remarks>
+             <response code="200">Ok. Returns the filename and lines processed</response>
+             <response code="400">Request error</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+Story 2 - Endpoint
+
+- Create a ASP Net Core WebAPI Restful servive Endpoint to access the Back End Processor on Story1
+- Use Swagger specification for Endpoint
+- Add validation for filename. Make sure it is not null and not blank.
+
+1) Create WebAPI
+2) Add configuration to project for swagger descriptions
+3) Setup Database and Intial Migration (from Story1)
+4) Add Back End Processor (from Story1)
+3) Test endpoint via swagger index page

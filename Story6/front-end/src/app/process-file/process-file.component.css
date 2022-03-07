@@ -1,0 +1,21 @@
+.file-uploader {
+  margin-top: 10px;
+}
+.file-input {
+  display: none;
+}
+.submit-btn {
+  display: block;
+  clear:both;
+  margin-top: 10px;
+}
+.success{
+  margin-top: 10px;
+  color: green;
+  font-size: 20px;
+}
+.error{
+  margin-top: 10px;
+  color: red;
+  font-size: 20px;
+}

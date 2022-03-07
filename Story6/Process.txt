@@ -1,0 +1,18 @@
+STORY 6 - Output
+
+Build over Story5
+
+- Endpoint
+1) Add controller to process post list
+2) Add process to save details to .csv file on server by post id for download.
+
+- Front End
+1) Add posts service to get posts list and details connecting to new Enpoint Controller (https://localhost:5001/api/Posts)
+2) Add post manager component to view posts and request details download.
+3) Create file with post details and download it.
+
+NOTE
+I was able to accomplish most of the tasks.
+I create the csv file and leave it on the folsder ./Uploads
+The file is correct.
+I was not able to implement the file upload did not work.

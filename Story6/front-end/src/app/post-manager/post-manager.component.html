@@ -1,0 +1,19 @@
+<div class="download">
+  <h3>Available Posts to Download</h3>
+  <ul>
+	  <li *ngFor="let post of posts">
+		  Id: {{post.postId}}, fileName: {{post.fileName}}, totalAmount: {{post.totalAmount}}
+	  </li>
+  </ul>
+  <div>
+	  <div>
+		  <label>Post Id to Download: </label>
+		  <input [(ngModel)]="post.postId" />
+	  </div>
+	  <div>
+		  <button (click)="downloadDetails()">Download</button>
+	  </div>
+  </div>
+  <div *ngIf="downloadFilePath" [ngClass]="'success'"> {{downloadFilePath}} </div>
+  <div *ngIf="errorMessage" [ngClass]="'error'"> {{errorMessage}} </div>
+</div>

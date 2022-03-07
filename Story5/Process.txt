@@ -1,0 +1,13 @@
+STORY 5 - Front End
+
+Add Angular Web App Front End to Consume the Endpoint created on Story4
+
+- tell the Web API that we're allowing Cross-Origin Resource Sharing (CORS)
+
+1) Allow Cross-Origin on Endpoint. (http://localhost:4200).
+2) Create Angular Front-End solution.
+3) Add component process-file to receive the file and process.
+4) Add service to connect to the Endpoint (https://localhost:5001/api/Submission).
+5) Add interface to results from Endpoint service.
+
+
